@@ -1,0 +1,55 @@
+package eCommerceDemo.business.concretes;
+import java.util.List;
+import eCommerceDemo.business.abstracts.UserService;
+import eCommerceDemo.business.validates.abstracts.ValidateService;
+import eCommerceDemo.dataAccess.abstracts.UserDao;
+import eCommerceDemo.entities.concretes.User;
+
+
+
+public class UserManager implements UserService {
+	
+	private UserDao userDao;
+	private ValidateService validateService ;
+	
+	public UserManager(UserDao userDao,ValidateService validateService) {
+		this.userDao = userDao;
+		this.validateService = validateService;
+	}
+
+	@Override
+	public void Add(User user) {
+		 if (validateService.CheckValide(user.getAd(), 2)==false) {
+			System.out.println("Ad en az iki karakter olmalýdýr.");
+		}else if (validateService.CheckValide(user.getSoyad(), 2)==false) {
+			System.out.println("Soyad en az iki karakter olmalýdýr.");
+		}else if (validateService.CheckValide(user.getParola(), 6)==false) {
+			System.out.println("Parola en az iki karakter olmalýdýr.");
+		}else if(validateService.CheckValideEmailFormat(user.getEposta())==false)
+		{
+			System.out.println("E-mail formatý yanlýþ lütfen dogru formatta giriniz.");
+		}else if(validateService.CheckUsedEmail(user.getEposta())==false)
+		{
+			System.out.println("Bu e-mail kullanýlmaktadýr.");
+		}else {
+			userDao.add(user);
+		}
+	}
+
+	@Override
+	public void Update(User user, int id) {
+		userDao.update(user, id);
+	}
+
+	@Override
+	public void Delte(int id) {
+		userDao.delete(id);
+	}
+
+	@Override
+	public List<User> GetAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

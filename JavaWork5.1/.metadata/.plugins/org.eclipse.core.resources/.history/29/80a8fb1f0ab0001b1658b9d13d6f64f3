@@ -1,0 +1,15 @@
+package eCommerceDemo.DataBase;
+
+import java.util.List;
+
+import eCommerceDemo.entities.concretes.User;
+
+public class DataBaseDeneme {
+	//Simülasyon için oluþturulmu class
+	
+	public static List<User> UserTable()
+	{
+		return null;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package eCommerceDemo.GoogleAccount;
+
+public class Account {
+	void GoogleAccount() 
+	{
+		System.out.println("Account is conform! ");
+	}
+}

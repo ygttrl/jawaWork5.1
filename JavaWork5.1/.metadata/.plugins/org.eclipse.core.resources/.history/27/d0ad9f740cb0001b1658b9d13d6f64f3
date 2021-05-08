@@ -1,0 +1,24 @@
+package eCommerceDemo.business.validates.concretes;
+
+import eCommerceDemo.business.validates.abstracts.ValidateService;
+
+public class VaidateManager implements ValidateService {
+
+	@Override
+	public boolean CheckValide(String value, int legnth) {
+		if (value.length()>legnth) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+
+	@Override
+	public boolean CheckValideEmailFormat(String value) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

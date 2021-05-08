@@ -1,0 +1,16 @@
+package eCommerceDemo;
+
+import eCommerceDemo.business.validates.abstracts.ValidateService;
+import eCommerceDemo.business.validates.concretes.VaidateManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		 ValidateService service = new VaidateManager();
+		 
+		
+
+	}
+
+}

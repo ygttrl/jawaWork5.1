@@ -1,0 +1,9 @@
+package eCommerceDemo.core;
+
+import eCommerceDemo.GoogleAccount.Account;
+
+public class GoogleAccountManager implements GoogleService  {
+
+	
+
+}

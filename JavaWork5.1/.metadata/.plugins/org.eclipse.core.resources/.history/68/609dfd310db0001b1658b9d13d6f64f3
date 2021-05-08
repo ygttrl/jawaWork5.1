@@ -1,0 +1,40 @@
+package eCommerceDemo.business.concretes;
+
+import java.util.List;
+
+import eCommerceDemo.business.abstracts.UserService;
+import eCommerceDemo.dataAccess.abstracts.UserDao;
+import eCommerceDemo.entities.concretes.User;
+
+public class UserManager implements UserService {
+	
+	private UserDao userDao;
+	
+	public UserManager(UserDao userDao) {
+		
+		this.userDao = userDao;
+	}
+
+	@Override
+	public void Add(User user) {
+	     userDao.add(user);
+		
+	}
+
+	@Override
+	public void Update(User user, int id) {
+		userDao.update(user, id);
+	}
+
+	@Override
+	public void Delte(int id) {
+		userDao.delete(id);
+	}
+
+	@Override
+	public List<User> GetAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

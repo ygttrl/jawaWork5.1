@@ -1,0 +1,7 @@
+package eCommerceDemo.entities.concretes;
+
+import eCommerceDemo.entities.abstracts.Entity;
+
+public class User implements Entity {
+	
+}

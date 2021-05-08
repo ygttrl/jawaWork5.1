@@ -1,0 +1,7 @@
+package eCommerceDemo.business.abstracts;
+
+public interface ValidateService {
+	
+	boolean CheckValide(String value,int legnth);
+	
+}

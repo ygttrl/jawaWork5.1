@@ -1,0 +1,5 @@
+package eCommerceDemo.GoogleAccount;
+
+public class Account {
+	void GoogleAccount() {}
+}

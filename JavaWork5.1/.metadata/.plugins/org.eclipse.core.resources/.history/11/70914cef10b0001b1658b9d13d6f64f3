@@ -1,0 +1,14 @@
+package eCommerceDemo;
+
+import eCommerceDemo.business.validates.abstracts.ValidateService;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		 ValidateService service = new ValidateManager
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package eCommerceDemo.core;
+
+import eCommerceDemo.GoogleAccount.Account;
+
+public class GoogleAccountManager implements GoogleService  {
+
+	@Override
+	public void IsConform(String string) {
+		Account account = new Account();
+		
+	}
+
+}

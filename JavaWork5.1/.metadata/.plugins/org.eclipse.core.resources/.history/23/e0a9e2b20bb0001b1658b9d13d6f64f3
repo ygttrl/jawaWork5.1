@@ -1,0 +1,15 @@
+package eCommerceDemo.business.utils;
+
+import eCommerceDemo.business.abstracts.ValidateService;
+
+public class validations implements ValidateService {
+
+	@Override
+	public boolean CheckValide(String value, int legnth) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	 
+	
+    
+}

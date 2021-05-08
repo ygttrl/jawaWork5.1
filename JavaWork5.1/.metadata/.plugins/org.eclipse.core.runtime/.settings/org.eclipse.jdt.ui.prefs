@@ -1,0 +1,9 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="eCommerceDemo.entities.abstracts.Entity"><rhs name\="eCommerceDemo.entities.concretes.User"/></lhs><lhs name\="eCommerceDemo.entities.concretes.User"><rhs name\="eCommerceDemo.entities.concretes.User"/></lhs><lhs name\="eCommerceDemo.business.validates.abstracts.ValidateService"><rhs name\="eCommerceDemo.business.validates.concretes.VaidateManager"/></lhs><lhs name\="eCommerceDemo.business.abstracts.UserService"><rhs name\="eCommerceDemo.business.concretes.UserManager"/></lhs><lhs name\="eCommerceDemo.dataAccess.abstracts.UserDao"><rhs name\="eCommerceDemo.dataAccess.concrete.HibernateUserDao"/></lhs><lhs name\="eCommerceDemo.GoogleAccount.Account"><rhs name\="eCommerceDemo.GoogleAccount.Account"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

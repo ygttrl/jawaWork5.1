@@ -1,0 +1,5 @@
+package eCommerceDemo.dataAccess.concrete;
+
+public class HibernateUserDao {
+
+}

@@ -1,0 +1,28 @@
+package eCommerceDemo.business.validates.concretes;
+import java.util.regex.Pattern;
+
+import eCommerceDemo.business.validates.abstracts.ValidateService;
+
+
+public class VaidateManager implements ValidateService {
+
+	@Override
+	public boolean CheckValide(String value, int legnth) {
+		if (value.length()>legnth) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+
+	@Override
+	public boolean CheckValideEmailFormat(String value) {
+		
+		Pattern pattern = Pattern.compile("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}");
+		
+		return false;
+	}
+
+}

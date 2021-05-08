@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="eCommerceDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.ListCellRenderer"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.dataAccess.abstracts.UserDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.business.abstracts.ValidateService"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.DataBase.DataBaseDeneme"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.business.validates.abstracts.ValidateService"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.business.abstracts.UserService"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.business.concretes.UserManager"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.dataAccess.concrete.HibernateUserDao"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.business.validates.concretes.VaidateManager"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.entities.concretes.User"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.GoogleAccount.Account"/>
+    <fullyQualifiedTypeName name="eCommerceDemo.core.GoogleService"/>
+</qualifiedTypeNameHistroy>
